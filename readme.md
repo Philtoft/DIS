@@ -3,7 +3,7 @@
 0. (Be aware that if something goes wrong, you can always reset your local repository to match the remote by `git fetch origin` and then `git reset --hard origin/<branch name>`.
 1. Create personal repo on github.com
 2. Clone this project
-3. Push the project to your own personal repository. Hint: You need to change the remote url by `git remote -set-url <URL>`
+3. Push the project to your own personal repository. Hint: You need to change the remote url by `git remote set-url origin <URL>`
 4. Check github.com to make sure it’s there.
 5. `git status` - how does this look?
 6. Edit a file - Change the Main class to include your own username and password.
