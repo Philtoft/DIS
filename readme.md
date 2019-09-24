@@ -21,7 +21,7 @@
 18. `git push`
 19. Go back to the master branch.
 20. Merge the new branch into master by `git merge <branch name>`
-21. You should get a merge conflict
+21. You should get a merge conflict - HOTFIX: If you don't you can simulate this by both switching to the master branch. Edit the same line of code. You both `git add .` and `git commit -m "msg"` and one of you pushes the code. After this the other one tries to push, and gets an error. Then the second one `git pull`s and you get a merge conflict. Resolve this conflict. 
 22. In IntelliJ you can fix merge conflicts visually by going to VCS -> Git -> Resolve conflicts. Pick the changed code.
 23. `git commit`
 24. `git push`
